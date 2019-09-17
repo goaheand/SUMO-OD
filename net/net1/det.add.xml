@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/09/19 19:26:38 by Eclipse SUMO netedit Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="net.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\sumo\net\new_net1.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\sumo\net\det.add"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="east_00_0" lane="gneE45_2" pos="27.19" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_00_1" lane="gneE45_1" pos="27.52" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_00_2" lane="gneE45_0" pos="26.52" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_01_0" lane="gneE41_2" pos="26.79" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_01_1" lane="gneE41_1" pos="26.96" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_01_2" lane="gneE41_0" pos="25.96" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_02_0" name="east_02" lane="gneE50_2" pos="26.39" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_02_1" name="east_02" lane="gneE50_1" pos="26.21" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_02_2" name="east_02" lane="gneE50_0" pos="25.85" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_10_0" lane="gneE2_2" pos="26.89" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_10_1" lane="gneE2_1" pos="27.05" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_10_2" lane="gneE2_0" pos="26.59" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_11_0" lane="gneE18_2" pos="26.89" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_11_1" lane="gneE18_1" pos="26.89" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_11_2" lane="gneE18_0" pos="26.14" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_12_0" name="west_12" lane="gneE32_2" pos="26.17" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_12_1" name="west_12" lane="gneE32_1" pos="26.04" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_12_2" name="west_12" lane="gneE32_0" pos="26.17" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_20_0" lane="gneE89_2" pos="27.79" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_20_1" lane="gneE89_1" pos="27.52" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_20_2" lane="gneE89_0" pos="27.38" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_21_0" lane="gneE85_2" pos="26.40" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_21_1" lane="gneE85_1" pos="26.26" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_21_2" lane="gneE85_0" pos="26.13" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_22_0" lane="gneE96_2" pos="27.14" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_22_1" lane="gneE96_1" pos="27.14" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="east_22_2" lane="gneE96_0" pos="26.69" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_00_0" lane="gneE57_2" pos="26.71" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_00_1" lane="gneE57_1" pos="26.43" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_00_2" lane="gneE57_0" pos="26.43" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_01_0" lane="gneE54_2" pos="25.72" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_01_1" lane="gneE54_1" pos="25.89" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_01_2" lane="gneE54_0" pos="25.72" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_02_0" name="north_02" lane="gneE63_2" pos="25.32" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_02_1" name="north_02" lane="gneE63_1" pos="25.14" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_02_2" name="north_02" lane="gneE63_0" pos="25.32" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_10_0" lane="gneE6_2" pos="26.13" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_10_1" lane="gneE6_1" pos="25.23" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_10_2" lane="gneE6_0" pos="25.83" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_11_0" lane="gneE19_2" pos="25.91" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_11_1" lane="gneE19_1" pos="25.91" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_11_2" lane="gneE19_0" pos="25.61" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_12_0" name="west_12" lane="gneE31_2" pos="26.31" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_12_1" name="west_12" lane="gneE31_1" pos="25.62" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_12_2" name="west_12" lane="gneE31_0" pos="26.17" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_20_0" lane="gneE90_2" pos="16.98" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_20_1" lane="gneE90_1" pos="17.34" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_20_2" lane="gneE90_0" pos="17.34" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_21_0" lane="gneE84_2" pos="16.41" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_21_1" lane="gneE84_1" pos="16.32" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_21_2" lane="gneE84_0" pos="16.41" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_22_0" lane="gneE97_2" pos="25.80" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_22_1" lane="gneE97_1" pos="26.10" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="north_22_2" lane="gneE97_0" pos="25.80" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_00_0" lane="gneE59_2" pos="25.49" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_00_1" lane="gneE59_1" pos="25.49" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_00_2" lane="gneE59_0" pos="25.77" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_01_0" lane="gneE55_2" pos="26.64" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_01_1" lane="gneE55_1" pos="26.47" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_01_2" lane="gneE55_0" pos="25.98" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_02_0" name="south_02" lane="gneE65_2" pos="17.29" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_02_1" name="south_02" lane="gneE65_1" pos="16.70" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_02_2" name="south_01" lane="gneE65_0" pos="17.29" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_10_0" lane="gneE9_2" pos="27.47" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_10_1" lane="gneE9_1" pos="27.62" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_10_2" lane="gneE9_0" pos="27.31" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_11_0" lane="gneE12_2" pos="25.72" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_11_1" lane="gneE12_1" pos="25.88" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_11_2" lane="gneE12_0" pos="25.72" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_12_0" name="south_12" lane="gneE26_2" pos="26.85" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_12_1" name="west_12" lane="gneE26_1" pos="26.44" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_12_2" name="west_12" lane="gneE26_0" pos="26.85" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_20_0" lane="gneE91_2" pos="28.18" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_20_1" lane="gneE91_1" pos="28.32" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_20_2" lane="gneE91_0" pos="28.04" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_21_0" lane="gneE86_2" pos="16.18" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_21_1" lane="gneE86_1" pos="16.35" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_21_2" lane="gneE86_0" pos="16.26" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_22_0" lane="gneE98_2" pos="16.64" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_22_1" lane="gneE98_1" pos="16.84" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="south_22_2" lane="gneE98_0" pos="16.74" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_00_0" lane="gneE58_2" pos="24.84" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_00_1" lane="gneE58_1" pos="24.51" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_00_2" lane="gneE58_0" pos="24.35" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_01_0" lane="gneE56_2" pos="25.07" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_01_1" lane="gneE56_1" pos="24.91" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_01_2" lane="gneE56_0" pos="24.58" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_02_0" name="west_02" lane="gneE64_2" pos="24.99" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_02_1" name="west_02" lane="gneE64_1" pos="24.99" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_02_2" name="west_02" lane="gneE64_0" pos="24.79" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_10_0" lane="gneE1_2" pos="25.35" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_10_1" lane="gneE1_1" pos="24.89" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_10_2" lane="gneE1_0" pos="24.89" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_11_0" lane="gneE17_2" pos="25.35" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_11_1" lane="gneE17_1" pos="25.20" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_11_2" lane="gneE17_0" pos="24.75" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_12_0" name="west_12" lane="gneE33_2" pos="25.21" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_12_1" name="west_12" lane="gneE33_1" pos="25.07" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_12_2" name="west_12" lane="gneE33_0" pos="24.93" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_20_0" lane="gneE82_2" pos="16.61" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_20_1" lane="gneE82_1" pos="16.61" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_20_2" lane="gneE82_0" pos="16.17" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_21_0" lane="gneE79_2" pos="16.01" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_21_1" lane="gneE79_1" pos="15.74" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_21_2" lane="gneE79_0" pos="15.92" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_22_0" lane="gneE81_2" pos="17.05" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_22_1" lane="gneE81_1" pos="16.46" freq="300.00" file="od.out.xml"/>
+    <e1Detector id="west_22_2" lane="gneE81_0" pos="16.17" freq="300.00" file="od.out.xml"/>
+</additional>

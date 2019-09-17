@@ -1,0 +1,22 @@
+$VR-
+* From-Time  To-Time
+0.00 24.00
+* Factor
+1.00
+*
+* some
+* additional
+* comments
+* District number
+4
+* names:
+         taz_0          taz_1          taz_2           taz_3
+*
+* District taz_0 Sum = 8000
+         2000          2000          2000           2000
+* District taz_1 Sum = 8000
+         2000          2000          2000           2000
+* District taz_2 Sum = 8000
+         2000          2000          2000           2000
+* District taz_3 Sum = 8000
+         2000          2000          2000           2000

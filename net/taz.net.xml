@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/10/19 20:33:33 by Eclipse SUMO netedit Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\SUMO\net\new_net.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\SUMO\net\new_net.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <opposites.guess.fix-lengths value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\SUMO\net\taz.net.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <taz id="taz_0" shape="-428.32,1661.07 -411.70,-188.65 -219.37,-98.42 -247.86,1682.44 -425.94,1658.70 -428.32,1661.07" color="blue">
+        <tazSource id="west_1_1" weight="1.00"/>
+        <tazSource id="west_0_1" weight="1.00"/>
+        <tazSource id="west_2_1" weight="1.00"/>
+        <tazSink id="west_1_0" weight="1.00"/>
+        <tazSink id="west_0_0" weight="1.00"/>
+        <tazSink id="west_2_0" weight="1.00"/>
+    </taz>
+    <taz id="taz_1" shape="-103.02,1677.69 1525.87,1753.67 1435.64,1858.15 -133.88,1839.16 -95.89,1670.57 -103.02,1677.69" color="blue">
+        <tazSource id="north_2_1" weight="1.00"/>
+        <tazSource id="north_1_1" weight="1.00"/>
+        <tazSource id="north_0_1" weight="1.00"/>
+        <tazSink id="north_2_0" weight="1.00"/>
+        <tazSink id="north_1_0" weight="1.00"/>
+        <tazSink id="north_0_0" weight="1.00"/>
+    </taz>
+    <taz id="taz_2" shape="1440.39,1627.83 1537.75,-145.91 1746.70,-58.05 1632.73,1627.83 1438.02,1627.83 1440.39,1627.83" color="blue">
+        <tazSource id="east_1_1" weight="1.00"/>
+        <tazSource id="east_0_1" weight="1.00"/>
+        <tazSource id="east_2_1" weight="1.00"/>
+        <tazSink id="east_2_0" weight="1.00"/>
+        <tazSink id="east_1_0" weight="1.00"/>
+        <tazSink id="east_0_0" weight="1.00"/>
+    </taz>
+    <taz id="taz_3" shape="-133.41,-171.67 1402.40,-148.16 1389.34,-385.85 -177.81,-351.89 -130.80,-166.45 -133.41,-171.67" color="blue">
+        <tazSource id="south_1_1" weight="1.00"/>
+        <tazSource id="south_2_1" weight="1.00"/>
+        <tazSource id="south_0_1" weight="1.00"/>
+        <tazSink id="south_2_0" weight="1.00"/>
+        <tazSink id="south_1_0" weight="1.00"/>
+        <tazSink id="south_0_0" weight="1.00"/>
+    </taz>
+</additional>
